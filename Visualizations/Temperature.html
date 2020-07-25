@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<!------------------------------Navigation Section-------------------------------->
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="../index.html">Latitude</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Plots
+                  </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                      <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                      <a class="dropdown-item" href="Temperature.html">Temperature</a>
+                      <a class="dropdown-item" href="Wind_speed.html">Wind Speed</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Comparison.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Data.html">Data</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+    </section>
+
+<!-------------------------------------Main Section---------------------------------->
+    <section id="main">
+        <div class="container-float">
+            <div class="row">
+                <div class="col-md-7">
+                    <h2 class="summary_title">Maximum Temperature</h2>
+                    <hr>
+                    <a href="../WeatherPy/Images/Fig1.png" class="main_image"><img src="../WeatherPy/Images/Fig1.png"  alt="Latitude vs Maximum Temperature" hspace="5" vspace="10" align="left"/></a>
+                    &emsp;
+                    <p>The The latitude vs temperature plot shows how the temperature increases as latitude is closer to the Equator.</p>
+                    <p> Latitude is one of the primary factors that affect temperature. As one moves further away from the equator, the temperature falls because regions receive less sunlight. The reason behind this is the shape of the earth. The shape of the earth is an oblate spheroid. Thus, not all locations receive the same amount of sunlight heat or insolation (Incoming Solar Radiation). Another reason for the difference in temperatures varying with latitude is the angle of solar incidence. The rays from the sun strike the surface of the earth at different angles. At the equator, the incidence of the sun's rays are at a right angle, and this translates to more heat because they are concentrated over a small area. It also implies that less heat is lost in the atmosphere because they travel a short distance in the atmosphere. On the other hand, at the poles, the sun rays strike the surface of the earth at an acute angle. The rays from the sun are dispersed over a large area. This also implies that more heat is lost in the atmosphere because they travel long distances over the atmosphere before it hits the earth’s surface.</p> 
+                </div>
+                <div class="col-md-4">
+                    <h2 class="summary_title">Visualizations</h2>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6 col-3 images text-center">
+                                <a target="_blank" href="Temperature.html">
+                                <img src="../WeatherPy/Images/Fig1.png" class="gallery p-2" alt="Latitude vs Maximum Temperature" width="300" height="250">
+                                </a>
+                        </div>
+            
+                        <div class="col-md-6 col-3 images text-center">
+                            <a target="_blank" href="Humidity.html">
+                            <img src="../WeatherPy/Images/Fig2.png" class="gallery  p-2" alt="Latitude vs Humidity"  width="300" height="250">
+                            </a>
+                        </div>
+                        
+                        <div class="col-md-6 col-3 images text-center">
+                            <a target="_blank" href="Cloudiness.html">
+                            <img src="../WeatherPy/Images/Fig3.png" class="gallery p-2" alt="atitude vs Cloudiness"  width="300" height="250">
+                            </a>
+                        </div>
+                        
+                        <div class="col-md-6 col-3 images text-center">
+                            <a target="_blank" href="Wind_speed.html">
+                            <img src="../WeatherPy/Images/Fig4.png" class="gallery p-2" alt="Latitude vs Wind Speed"  width="300" height="250">
+                            </a>
+                        </div> 
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </section>
+</body>
+</html>
