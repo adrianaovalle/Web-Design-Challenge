@@ -26,6 +26,11 @@ body {
   font-weight: 600;
 }
 
+.dropdown-menu {
+  background: lightgrey;
+  border: none;
+}
+
 /* ---------------------------Main Section--------------------------------------------*/
 #main{
   margin-left:10px;
