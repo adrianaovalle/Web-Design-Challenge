@@ -2,7 +2,7 @@
 
 The following work creates a website to show the results of the analysis done on worlwide cities Latitude Vs Maximum Temperature, Humidity, Cloudiness and Wind Speed.
 
-Weblink: https://htmlpreview.github.io/?https://github.com/adrianaovalle/Web-Design-Challenge/blob/master/index.html
+
 
 
 
