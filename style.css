@@ -1,0 +1,110 @@
+body {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to right, rgba(40, 39, 43, 0.452),rgba(183, 185, 190, 0.425));
+}
+
+/* ------------------Navigation Section--------------------------------------- */
+.navbar-light .navbar-brand {
+  background-color: teal;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px;
+  margin: -10px;
+  margin-left: 10px;
+}
+  
+.navbar{
+  background:linear-gradient(to right, rgba(40, 39, 43, 0.452),rgba(183, 185, 190, 0.425))!important;
+  
+}
+.navbar-nav{ 
+  margin-left: auto;
+  font-weight: 600;
+}
+
+/* ---------------------------Main Section--------------------------------------------*/
+#main{
+  margin-left:10px;
+  margin-right: 0px;
+}
+
+p{
+  text-align: justify;
+}
+
+h2{
+  color: teal;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 600;
+  font-size: 25px;
+  margin: 10px;
+  margin-left: 20px;
+}
+
+.main_image img{
+  width: 30%;
+  margin: 15px;
+  margin-left: 0;
+}
+
+.col-md-7{
+  background-color: white;
+  margin-left:30px;
+  margin-right:5px;
+  padding-left:10px;
+  padding-right:5px;
+}
+
+.col-md-4{background-color: white;
+    margin-left:30px;
+    margin-right:0px;
+    padding-left:0px;
+    padding-right:0px;
+        
+}
+
+
+.images img{
+  width: 100%;
+  height: auto;
+}
+
+.images:hover {
+    border: 3px solid teal;
+    margin: 0px;
+  }
+
+/* @media only screen and (max-width: 576px) {
+    .Images {
+      width: 25%;
+    }
+    #main_image{
+        width: 50%;
+
+    }
+}
+
+/* ---------------------------Comparison-------------------------------------------- */
+.comparison{
+  background-color: white;
+  margin-left:30px;
+  margin-right:0px;
+  padding-left:0px;
+  padding-right:0px;
+      
+}
+
+.comparison .images img{
+  width: 80%;
+}
+
+h4{
+  color: teal;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 600;
+  font-size: 20px;
+}
