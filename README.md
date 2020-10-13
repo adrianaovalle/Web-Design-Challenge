@@ -4,7 +4,7 @@ The following work creates a website to show the results of the analysis done on
 
 The website can be viewed here:  https://adrianaovalle.github.io/Web-Design-Challenge/
 
-![Figure1](Images/Video.png)
+![Figure1](Images/Video.GIF)
 
 
 
