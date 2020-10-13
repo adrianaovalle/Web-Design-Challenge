@@ -4,6 +4,8 @@ The following work creates a website to show the results of the analysis done on
 
 The website can be viewed here:  https://adrianaovalle.github.io/Web-Design-Challenge/
 
+Languagesd used: Python, HTML, CSS
+
 ![Figure1](Images/Video.gif)
 
 
